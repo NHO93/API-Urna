@@ -46,16 +46,19 @@ A **Urna Eletrônica Digital** é uma aplicação construída usando Java e Spri
 - **Descrição**: Adiciona um novo candidato.
 - **Requisição**:
   ```json
-  {
-    "nome": "Candidato B"
+  
+    {
+      "id": 2,
+      "nome": "Candidato C",
+      "votos": 10
   }
   ```
 - **Resposta**:
   ```json
   {
     "id": 2,
-    "nome": "Candidato B",
-    "votos": 0
+    "nome": "Candidato C",
+    "votos": 10
   }
   ```
 
@@ -67,14 +70,15 @@ A **Urna Eletrônica Digital** é uma aplicação construída usando Java e Spri
 - **Requisição**:
   ```json
   {
+    "id": 3
     "nome": "Candidato B",
-    "votos": 0
+    "votos": 10
   }
   ```
 - **Resposta**:
   ```json
   {
-    "id": 2,
+    "id": 3,
     "nome": "Candidato B" ,
     "votos": 5
   }
