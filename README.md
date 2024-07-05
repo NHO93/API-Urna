@@ -19,6 +19,7 @@ A **Urna Eletrônica Digital** é uma aplicação construída usando Java e Spri
 - **Spring Data JPA**
 - **PostgreSQL**
 - **Swagger**
+- **Insônia**
 
 ## Endpoints
 
